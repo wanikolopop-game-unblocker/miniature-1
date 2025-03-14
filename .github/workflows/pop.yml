@@ -14,7 +14,7 @@ jobs:
       max-parallel: 20
       fail-fast: false
       matrix:
-        rangeIndex: ["1995 2000 1", "1995 2000 2", "1995 2000 3", "1995 2000 4", "1995 2000 5", "1995 2000 6", "1995 2000 7"]
+        rangeIndex: ["2010 4010 1", "2010 4010 2", "2010 4010 3", "2010 4010 4", "2010 4010 5", "2010 4010 6", "2010 4010 7"]
     steps:
     - name: Checkout
       uses: actions/checkout@v4
